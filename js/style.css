@@ -1,0 +1,28 @@
+#bigbox {
+    background-color: gray;
+    width: 800px;
+    height: 800px;
+    padding-top: 50px;
+}
+#green {
+    background-color: green;
+    width: 650px;
+    height: 150px;
+}
+#green, #blue, #red {
+    margin: 50px 0 0 60px;
+}
+#blue, #red {
+    height: 350px;
+}
+#blue {
+    background-color: blue;
+    width: 150px;
+}
+#red {
+    background-color: red;
+    width: 500px;
+}
+.flex {
+    display: flex;
+}
