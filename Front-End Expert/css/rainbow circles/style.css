@@ -1,0 +1,15 @@
+#inner, #middle, #outer {
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #800080;
+    border: 25px solid #0000ff;
+}
+#middle {
+    background-color: #008000;
+    border: 25px solid #ffff00;
+}
+#outer {
+    background-color: #ffa500;
+    border: 25px solid #ff0000;
+    display: inline-block;
+}
