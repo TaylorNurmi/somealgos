@@ -1,0 +1,50 @@
+/*  Write your code here. */
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#algo-expert {
+    width: 75%;
+    background-color: #626ee3;
+    order: 3;
+    margin: 24px auto;
+}
+
+#systems-expert {
+    width: 50%;
+    background-color: #890023;
+    order: 1;
+}
+
+#ml-expert {
+    width: 30%;
+    height: 75px;
+    background-color: #f37f1b;
+    order: 2;
+}
+
+#frontend-expert {
+    width: 40%;
+    background-color: #11967e;
+    order: 4;
+    margin-right: 10px;
+    align-self: end;
+}
+
+#programming-expert {
+    background-color: #f21b3f;
+    order: 5;
+    flex:1;
+    height: 75px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
